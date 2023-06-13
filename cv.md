@@ -20,7 +20,9 @@
 + VS Code
 ## Code Example
 [Kata from CodeWars](https://www.codewars.com/kata/57ea5b0b75ae11d1e800006c)
-```JS
+
+```js
+
 function sortByLength (array) {
   return array.sort((w1,w2)=> w1.length - w2.length);
 };
