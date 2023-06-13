@@ -14,24 +14,20 @@
 + Java Script
 + CSS
 + HTML
-### Frameworks:
-### Methodologies:
 ### Version control systems:
 + GITHUB
 ### Development tools:
 + VS Code
 ## Code Example
-```
-var summation = function (num) {
-   let sum = 0
-   for (let i = 1 ; i<=num; i++){
-      sum += i
-    }
-    return sum
-}
+[Kata from CodeWars](https://www.codewars.com/kata/57ea5b0b75ae11d1e800006c)
+```JS
+function sortByLength (array) {
+  return array.sort((w1,w2)=> w1.length - w2.length);
+};
+
 ```
 ## Experience
-+ RS School
++ RS School Stage#0
 ## Education
 + Bachelor <br> State University of Telecommunications, Kyiv
 + Junior Specialist <br> Kharkiv State University of Telecommunications College, Kharkiv
