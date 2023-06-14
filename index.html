@@ -5,25 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="styleshit" type="ext/css" href="/style.css">
+    <link rel="styleshit" type="text/css" href="style.css">
 </head>
 <body>
-    <section>
+    <header>
         <h1>Yevhen Korkh</h1>
-        <div class="photo">
-            <img src="/assets/IMG_0181.jpg">
+        <div>
+            <img class="photo" src="https://github.com/Eugeko13/rsschool-cv/blob/gh-pages/assets/IMG_0181.jpg?raw=true">
         </div>
-    </section>
-    <ul class="menu">
-        <li><a href="#">Contacts</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Code Example</a></li>
-        <li><a href="#">Experience</a></li>
-        <li><a href="#">Education</a></li>
-        <li><a href="#">English Language</a></li>
-      </ul>
-    <section>
+        <nav id="menu">
+            <ul>
+                <li><a href="#1">Contacts</a></li>
+                <li><a href="#2">About</a></li>
+                <li><a href="#3">Skills</a></li>
+                <li><a href="#4">Code Example</a></li>
+                <li><a href="#5">Experience</a></li>
+                <li><a href="#6">Education</a></li>
+                <li><a href="#7">English Language</a></li>
+            </ul>
+        </nav> 
+    </header>
+    <section class="Contacts" id="1">
 
         <h2>Contacts</h2>
         <ul>
@@ -36,14 +38,14 @@
             <li>Telegram: <a href="t.me/eugeko">eugeko</a></li>
         </ul>
     </section>
-    <section>
+    <section class="About" id="2">
         <h2>About</h2>
         <p>Highly motivated, decisive Junior Developer to work alongside experienced professionals in 
             supporting projects relating to the development and deployment of digital solutions for 
             clients .
         </p>
     </section>
-    <section>
+    <section class="Skills" id="3">
         <h2>Skills</h2>
         <h3>Programming languages:</h3>
         <ul>
@@ -60,32 +62,34 @@
             <li>VS Code</li>
         </ul>
     </section>
-    <section>
+    <section class="Code" id="4">
         <h2>Code Example</h2>
         <a href="https://www.codewars.com/kata/57ea5b0b75ae11d1e800006c">Kata from CodeWars</a>
         <h3>My solution:</h3>
-        <code>
-            <pre>
-            function sortByLength (array) {
-                return array.sort((w1,w2)=> w1.length - w2.length);
-              };
-            </pre>
-        </code>
+        <pre>
+            <code>
+        
+    function sortByLength (array) {
+        return array.sort((w1,w2)=> w1.length - w2.length);
+    };
+            
+            </code>
+        </pre>
     </section>
-    <section>
+    <section class="Experience" id="5">
         <h2>Experience</h2>
         <ul>
             <li>RS School Stage#0</li>
         </ul>
     </section>
-    <section>
+    <section class="Education" id="6">
         <h2>Education</h2>
         <ul>
             <li>Bachelor <br> State University of Telecommunications, Kyiv</li>
             <li>Junior Specialist <br> Kharkiv State University of Telecommunications College, Kharkiv</li>
         </ul>
     </section>
-    <section>
+    <section class="English"id="7">
         <h2>English Language</h2>
         <ul>
             <li>B1 Level </li>
