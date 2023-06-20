@@ -1,7 +1,7 @@
 body
 {
     background-color: rgb(229, 238, 244);
-    font-family: sans-serif;
+    font-family:  sans-serif;   
     margin: 0;
     padding: 0;
 }
@@ -121,6 +121,8 @@ li
 .about p
 {
     font-size: 18px;
+    font-family: 'Open Sans', sans-serif;   
+
 }
 h2
 {
