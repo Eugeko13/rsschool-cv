@@ -5,6 +5,10 @@ body
     margin: 0;
     padding: 0;
 }
+a
+{
+    color: black;
+}
 header
 {
     display: flex;
@@ -42,7 +46,7 @@ h1
     position: relative;
     list-style: none;
     margin: 10px 0;
-    cursor: pointer;
+    
 }
 .contacts ul li .icon
 {
@@ -159,7 +163,7 @@ h2
 }
 .logo_link img
 {
-    height: 50px;
+    height: 40px;
     padding: 15px 50px 0 0;
     float:right;
     background-color: rgb(230, 232, 96);
