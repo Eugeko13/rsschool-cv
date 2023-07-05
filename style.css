@@ -118,7 +118,7 @@ li
 }
 #menu ul li a:hover
 {
-    color: rgb(95, 231, 58);
+    color: rgb(56, 195, 18);
     cursor: pointer;
 }
 
@@ -153,7 +153,6 @@ h2
     margin: 0;
     height: 50px;
     padding-top: 25px;
-
 }
 
 .logo_link
@@ -167,7 +166,5 @@ h2
     padding: 15px 50px 0 0;
     float:right;
     background-color: rgb(230, 232, 96);
-
-
 }
 
